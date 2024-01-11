@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;;
+}
+.page{
+    display: flex;
+    margin-top: 80px;
+}
+/*siderbar*/
+.sidebar {
+    width: 12%;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    overflow-y: auto;
+    padding-top: 20px;
+}
+.sidebar h2 {
+    background-color: red;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+.sidebar ul li {
+    padding: 15px 20px;
+}
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s;
+}
+.sidebar ul li a:hover {
+    color: #4CAF50;
+}
+.content {
+    margin-left: 15%;
+    padding: 10px;
+    width: 88%;
+}
+.form-container {
+    display: flex;
+}
+
+.right-column {
+    width: 30%;
+    padding: 10px;
+}
+.left-column {
+    width: 70%;
+    overflow-x: auto;
+    margin-right: 30px;
+}
+
+/*table account*/
+table.account {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 15px;
+    text-align: left;
+    
+}
+
+table.account thead th {
+    background-color: #009879;
+    color: white;
+    padding: 10px;
+}
+
+table.account tbody td {
+    border-bottom: 1px solid #dddddd;
+    padding: 10px;
+}
+
+table.account tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table.account tbody tr:nth-of-type(odd) {
+    background-color: #ffffff;
+}
+/*input account*/
+.row {
+    display: flex;
+    margin-bottom: 10px;
+}
+.label {
+    width: 30%;
+    text-align: left;
+    padding-right: 10px;
+}
+.input {
+    width: 70%;
+}
+
+
+
+

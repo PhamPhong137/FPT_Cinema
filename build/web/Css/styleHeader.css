@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: __Montserrat_cabfd8,__Montserrat_Fallback_cabfd8;
+    
+}
+/*header*/
+.navbar1 {
+    background: linear-gradient(to right, #2a2727, #31302b);
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 18;
+    opacity: 0.97;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo1 img {
+    height: 45px;
+    margin-left: 15px;
+}
+
+.main-nav1 a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 4rem;
+    font-size: 20px;
+}
+.main-nav1 a:hover {
+    color: #f00;
+}
+
+.auth-btn1 button {
+    padding: 0.75rem 2rem;
+    border-radius: 20px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.register1 {
+    background: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.login1 {
+    background: linear-gradient(210deg, #993434, #ff000e);
+    color:white;
+    border: none;
+}
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #020817;
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 10px;
+}
+.dropdown-title1{
+    display: flex;
+    padding: 10px;
+    color: white;
+}
+
+.dropdown-content1 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content1 a:hover {
+    color:red;
+}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+.username1{
+    margin-right:30px;
+    font-size: 18px;
+    margin-top:4px
+}
+
+
+

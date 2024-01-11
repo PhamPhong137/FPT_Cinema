@@ -1,0 +1,43 @@
+
+body{
+    background-color: #10141b !important;
+}
+
+.title{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+
+}
+.lichsu{
+    margin: 50px;
+    color: #ccc;
+    font-size: 20px;
+    
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+table, th {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+th {
+    font-size: 1.2em;
+}
+th {
+    color: #555;
+}
+thead tr:last-child {
+    border-bottom: 2px solid #555;
+}

@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    ;
+}
+.page{
+    display: flex;
+    margin-top: 80px;
+}
+/*siderbar*/
+.sidebar {
+    width: 12%;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    overflow-y: auto;
+    padding-top: 20px;
+}
+.sidebar h2 {
+    background-color: red;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+.sidebar ul li {
+    padding: 15px 20px;
+}
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s;
+}
+.sidebar ul li a:hover {
+    color: #4CAF50;
+}
+.content {
+    margin-left: 15%;
+    padding: 10px;
+    width: 88%;
+}
+
+td input{
+    width: 300px;
+    height: 20px;
+}
+td textarea{
+    width: 300px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+

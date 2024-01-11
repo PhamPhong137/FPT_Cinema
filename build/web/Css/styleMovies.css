@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: __Montserrat_cabfd8,__Montserrat_Fallback_cabfd8;
+    font-style: normal;
+}
+.img{
+    background-image: url('https://img.meta.com.vn/Data/image/2021/10/01/background-trang-den-11.jpg');
+    height: 580px;
+    width: 100%;
+    position: relative;
+    opacity: 0.9;
+}
+.movie-card {
+    position: absolute;
+    display: flex;
+    margin-top: 80px;
+    padding: 40px;
+    color: rgba(255,255,255,0.9);
+    top:0;
+}
+.movie-image {
+    width: 40%;
+    text-align: end;
+    margin-right: 80px;
+}
+.movie-image img {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.movie-info {
+    margin-left: 10px;
+    width: 60%;
+}
+
+.movie-title {
+    display: flex;
+    gap: 10px;
+}
+
+.movie-format {
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 18px 0px;
+}
+
+.movie-details {
+    display: flex;
+    gap: 10px;
+    margin: -15px 0px;
+}
+
+.movie-warning {
+    color: red;
+}
+.details-button,
+.trailer-button {
+    border: 1px solid orange;
+    padding: 15px;
+    border-radius: 10px;
+    opacity: 0.7;
+    color: orange;
+    background-color: black;
+}
+
+/*Date*/
+.date{
+    background-color: rgba(16, 20, 27,0.95);
+    display: flex;
+    justify-content: center;
+    padding:10px;
+}
+.detal-date{
+    background-color: #8b7575;
+    margin: 0px 10px;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+.detal-date:hover{
+    background-color: #a35555;
+}
+/*time*/
+.time{
+    background-color:  rgb(16, 20, 27);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.detal-time{
+    color: white;
+    margin: 0px 10px;
+    padding: 15px 40px;
+    border-radius: 15px;
+    border: 1px solid #e5e7eb;
+    text-decoration: none;
+}
+.detal-time:hover{
+    background-color: #213842;
+}
+/*seat*/
+.seat  {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #10141b;
+    color: wheat;
+    text-align: center;
+    padding-bottom: 50px;
+}
+table{
+    border: none;
+}
+table, th, td {
+    border: 1px solid black;
+    margin: auto;
+   
+}
+.seat h2{
+    margin: 0px;
+    padding: 20px;
+}
+td {
+    width: 70px; 
+    height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px; 
+     cursor: pointer;
+}
+/*seat-type*/
+.seat-type{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.box{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: blue;
+}
+.seat1{
+    display: flex;
+    margin: 0px 20px;
+}
+.seat1 p{
+    padding :0px 5px;
+}
+.payment{
+    margin: 0px 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.booking{
+    margin-top: 25px;
+
+}
+.booking span{
+    border: 1px solid gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+input.submitfilm{
+    color: wheat;
+    border: none;
+    border-radius: 11px;
+    padding: 13px;
+    background-color: #883731;
+    cursor: pointer;
+}
+input.submitfilm:hover{
+    background-color: #733e3a;
+}
+
+/*javascript seat*/
+.orange{
+    background-color: orange;
+}
+.gray{
+    background-color: gray;
+}
+.selected-seat{
+    background-color: #393991;
+}
+
+
+
