@@ -21,7 +21,9 @@ public class Account {
     public Account() {
     }
 
-    public Account(int account_id, String username, String password, String first_name, String last_name, String email, String phone_number, int role_id) {
+    public Account(int account_id, String username, String password,
+            String first_name, String last_name, String email, 
+            String phone_number, int role_id) {
         this.account_id = account_id;
         this.username = username;
         this.password = password;
